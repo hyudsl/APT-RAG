@@ -1,0 +1,57 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*.json
+secrets*.json
+
+# Python caches and local tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda-meta/
+
+# Logs and transient runtime outputs
+*.log
+logs/
+log/
+stats/
+tmp/
+temp/
+
+# Generated benchmark outputs and traces
+results/
+src/baselines/logic-rag/orignal_code/dataset/
+
+# Private or large benchmark artifacts
+data/benchmarks/
+data/artifacts/corpus/
+data/artifacts/vectorDB/
+
+# Model and index artifacts
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.index
+*.faiss
+*.pkl
+*.npy
+*.npz
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,3 @@
+We downloaded the QAMPARI corpus from the official QAMPARI website: https://samsam3232.github.io/qampari/
+
+Place the downloaded corpus in the following directory: "<PROJECT_ROOT>/data/artifacts/corpus/qampari"

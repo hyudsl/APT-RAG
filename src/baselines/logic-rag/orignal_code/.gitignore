@@ -1,0 +1,12 @@
+
+# Project-specific directory
+result/
+
+# Environment variables
+.env
+
+# Editor and Cache files
+.vscode/
+.DS_Store
+__pycache__/
+cache/
